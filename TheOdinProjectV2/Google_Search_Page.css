@@ -1,0 +1,554 @@
+*{ 
+    box-sizing: border-box;
+    font-size: 100%;
+    margin:0;
+}
+
+
+/*container for all nav*/
+#grid_container_nav{
+
+    display:grid;
+    grid-template-columns: 39em 20em;
+    grid-template-rows: 0.3em 0.3em;
+    padding: 1.5em 8em 4.18em 10em;  
+    grid-row-gap:1.5em; 
+    grid-column-gap:13.5em;
+    border-bottom: 0.1em rgb(236, 236, 236) solid;    
+
+}
+
+
+/*left nav icons*/
+#search_bar{ 
+   
+    border-color:rgb(236, 236, 236);
+    border-width: 0.13em;
+    border-style:solid;
+    border-radius:2em;
+    width:41em;
+    height:2.8em;   
+
+}
+
+
+.searchbar_img{ 
+
+    display:inline; 
+    float:right;
+    position:relative;   
+
+}
+
+
+#cancel{ 
+
+    width:6em;
+    bottom:1.7em;
+    left:5em;   
+
+}
+
+
+#bracket{ 
+
+    font-size:2.1em;
+    bottom:0.08em;
+    left:1.6em;
+    color:rgb(236, 236, 236);
+
+}
+
+
+#micro{  
+
+    width:2.7em;
+    bottom:0.17em;
+    left:3.4em;   
+
+}
+
+#search_glass{
+ width:6.5em;
+ bottom:1.7em;
+ left:1em;
+ }
+
+
+/*right nav icons*/
+#right_icons img{ 
+
+position:relative;                
+float:right;
+
+}
+
+
+#email{ 
+
+width:6.5em;
+bottom:1.8em;
+left:3.8em;
+
+}
+
+
+#tabs{ 
+
+width:6.5em;
+bottom:1.5em;
+left:1em;
+
+}
+
+
+#google_logo{ 
+
+width:5em;
+top:0.8em;  
+
+}
+
+
+/*bottom nav icons*/
+#sub_nav{ 
+
+width:200em;
+position:relative;
+left:1em; 
+
+}
+
+
+ul{
+
+list-style-type: none;
+position:relative;
+bottom:5.9em;
+right:6.7em; 
+
+}
+
+
+li{ 
+
+display:inline;
+position:relative;
+
+}
+
+
+li[id="search_id"] {
+
+position:relative;
+border-bottom: 2px rgb(66, 0, 221) solid;
+padding: 0.6em 1.5em;
+
+}
+
+
+#sm_glass{ 
+
+width:5em;
+top:2.2em;
+left:2em;
+position:relative;   
+
+}
+
+
+#news{ 
+
+width:5em;
+top:1.9em;
+right:1.4em;
+position:relative;  
+
+}
+
+
+#video{ 
+
+width:1em;
+top:0.2em;
+right:3.3em;
+position:relative;
+
+}
+
+
+#images{  
+
+width:5em; 
+top:2.1em;
+right:5.2em;
+position:relative;  
+
+}
+
+
+#more_icon{ 
+
+width:10em;
+top:4.7em;
+right:11.6em;
+position:relative; 
+
+}
+
+
+#down_arrow{ 
+
+width:9.4em;
+top:3.8em;
+right:12.4em;
+position:relative;
+
+}
+
+
+.sub_text{ 
+
+font-family: roboto,sans-serif;
+color:rgb(77, 77, 77);
+margin:0.7em;
+font-size:0.9em;
+position:relative; 
+
+}
+
+
+#search_id{ 
+
+color:rgb(66, 0, 221);
+
+}
+
+
+#News_id{ 
+    
+right:4em;
+
+}
+
+
+#Videos{ 
+
+right:4em;
+
+}
+
+
+#images_id{ 
+
+right:8.3em;
+
+}
+
+
+#More{ 
+    
+right:19em;
+
+}
+
+
+#anytime{
+
+position:relative;
+right:18.8em;
+
+}
+/*end of container for all nav*/
+
+
+
+/*main_bottom*/
+/*grid template will only arrange the parent divs,the child divs will follow the parents*/
+
+#grid_container_main{
+
+display:grid;
+grid-template-columns: 36.5em 28.4em;
+grid-column-gap: 5em; 
+padding-left:10em;
+padding-right:2em;
+padding-top:0.8em;
+
+}
+
+
+#entire_left_container{
+
+display:grid;
+grid-template-rows: 7.6em 5em 5em 5em 5em;
+grid-template-columns: 1.5em 17em 1.5em 15.6em 1.2em;
+grid-row-gap:1.5em;
+
+}
+
+
+/*styling the box will not give you styles for each individual box. you must style the divs*/
+/*THIS WILL ONLY STLYE THE PARENT DIVS NOT THEIR GRANDCHILDREN*/
+#entire_left_container > div{ 
+
+background-color:white; 
+
+}
+
+
+#upper_container{
+    
+grid-column:1/6;
+grid-row:1/2;
+                   
+}
+
+
+/*text of top box*/
+.upper_container_toptext{
+    
+font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
+color:rgb(63, 106, 148);
+font-size: 14px;
+margin-bottom:1.5em;
+
+}
+
+
+.top_weblink_text{
+
+color:rgb(32, 33, 36);
+font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
+font-size:14px;
+margin-bottom:0.5em;
+
+}
+
+
+/*text of main body*/
+.big_blue_links{
+    
+font-family: 'helvetica neue',helvetica,arial,sans-serif;
+font-size:20px;
+font-weight: 400;
+ letter-spacing:0.5px;
+color:rgb(26, 13, 171);
+ margin-bottom:0.2em;
+
+}
+
+
+.gray_sub_text{
+    
+font-family:'helvetica neue',helvetica,arial,sans-serif; 
+font-size:14px;
+color: #4d5156;
+margin-bottom:0.2em;
+
+}
+
+
+.small_blue_subtext{
+    
+font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
+color: #1a0dab;
+font-size: 14px;
+
+}
+
+
+/*separate columns of main body text*/
+.column_2_text{
+
+width:17em;
+display:inline-block;
+
+}
+
+
+.column_3_text{
+
+float:right;
+width:16em;
+
+}
+
+
+/*divs of main body text*/
+#left_main_body_1{
+
+grid-column:2/5;
+
+}
+
+
+#left_main_body_2{
+    
+grid-column:2/5;
+
+}
+
+
+#left_main_body_3{
+    
+grid-column:2/5;
+
+}
+
+
+#left_main_body_4{
+    
+    grid-column:2/5;
+
+}
+
+
+
+/*RIGHT BOX STYLES*/
+/*CSS GRID WILL NOT WORK IF THEIR ARE DIVS WITHIN DIVS (FOR ROWS)*/
+
+#right_google_infobox{
+
+display:grid;
+position:relative;
+grid-template-rows: 10em 3.4em 10em 5.7em 3em;
+margin-top:2.2em;
+margin-right:0.5em;
+border-top:0.0004em rgb(187, 187, 187) solid;
+border-left:0.0004em rgb(187, 187, 187) solid;
+border-right:0.0004em rgb(187, 187, 187) solid;
+border-radius:0.5em;
+
+}
+
+
+#right_google_infobox > div{
+    
+border-bottom:0.0004em rgb(187, 187, 187) solid;
+
+}
+
+
+/*box 1*/
+#title{
+    
+padding:1em 1em;
+
+}
+
+
+.right_top_title{
+    
+display: block;
+position:relative;
+top:2em;
+color: #202124;
+font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
+font-size: 24px;
+line-height:1.1em;
+
+}
+
+
+#Giant_google_logo{
+    
+float:right;
+position:relative;
+bottom:2.3em;
+
+}
+
+
+/*box 2*/
+.right_google_url{
+
+padding:1em 1.2em;
+
+}
+
+
+#website{
+    
+color: #1a0dab;
+font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
+font-size: 15px;
+
+}
+
+
+/*box 3*/
+#description{
+    
+padding:1em 1em;
+
+}
+
+
+.small_right_dscrpt{
+    
+color: #4d5156;
+font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
+font-size: 13px;
+margin-bottom:1.7em;
+
+}
+
+
+.right_origin_info{    
+    
+color:#000000;
+font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
+font-size: 13px;
+line-height: 2em;
+
+}
+
+
+/*box 4*/
+#social_icons{
+
+padding:1em 1em;
+
+}
+
+
+.right_box_icons{
+    
+width:6.22em;
+       
+}
+
+
+.icon_text{
+
+font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
+font-size:14px;
+color: #1a0dab;
+position:relative;
+bottom:2em;
+text-align: center;
+width:6.9em;
+
+}
+
+
+.social_boxes{
+    
+display:inline-block;
+position:relative;
+bottom:2em;
+
+}
+
+
+/*box 5*/
+#feedback p{
+
+font-family: Roboto,helvetica neue,helvetica,arial,sans-serif;
+font-size:11px;
+color: #1a0dab;
+padding:1.5em 1em;
+float:right;
+
+}
